@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bgLight: 240 249 255;
+    --color-bgCard: 255 255 255;
+    --color-borderSubtle: 186 230 253;
+    --color-accentNavy: 3 105 161;
+    --color-accentTeal: 13 148 136;
+    --color-textMain: 15 23 42;
+    --color-textMuted: 71 85 105;
+  }
+
+  .dark {
+    --color-bgLight: 2 6 23;
+    --color-bgCard: 15 23 42;
+    --color-borderSubtle: 30 41 59;
+    --color-accentNavy: 56 189 248;
+    --color-accentTeal: 45 212 191;
+    --color-textMain: 248 250 252;
+    --color-textMuted: 148 163 184;
+  }
+}
+
+body {
+  @apply bg-bgLight text-textMain antialiased selection:bg-accentTeal/20 transition-colors duration-300;
+}
+@layer utilities {
+  .terminal-text {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
