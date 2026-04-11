@@ -8,9 +8,6 @@ export default function Navbar() {
           <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-accentNavy to-accentTeal text-white shadow-lg shadow-accentNavy/20 group hover:scale-105 transition-transform cursor-pointer">
             <span className="font-bold text-sm tracking-widest ml-0.5">LB</span>
           </div>
-          <div className="text-textMain select-none text-xl font-bold tracking-tight hidden sm:block">
-            Lakhdar<span className="text-accentNavy">.</span>
-          </div>
         </div>
         <div className="flex items-center gap-6">
           <div className="hidden sm:flex gap-6 text-textMuted">
