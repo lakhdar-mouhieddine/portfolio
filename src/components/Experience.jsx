@@ -13,7 +13,7 @@ const exps = [
     role: "Lead External Relations",
     company: "GDG Algiers",
     date: "2023–2024",
-    desc: "Organized GDG Hack, GDG School and Google I/O Extended. Partnership outreach with Algérie Telecom, CETIC."
+    desc: "Organized GDG Hack, GDG School and Google I/O Extended. Secured sponsorships with major industrial and technology leaders in Algeria."
   },
   {
     role: "Marketing Lead",
