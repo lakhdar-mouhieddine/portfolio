@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { TerminalSquare, Network, Cpu, Terminal, Bot, Database, Globe, Activity } from 'lucide-react'
+import { TerminalSquare, Network, Cpu, Terminal, Bot, Database, Globe, Activity, Gamepad2 } from 'lucide-react'
 import SectionHeader from './SectionHeader'
 
 const projects = [
@@ -23,6 +23,13 @@ const projects = [
     desc: "UNIX shell interpreter with job control, pipelines and POSIX signal handling built from scratch.",
     tech: "C · Unix · Systems · POSIX",
     link: "https://github.com/lakhdar-mouhieddine/Mini-SHELL"
+  },
+  {
+    icon: <Gamepad2 size={22} />,
+    name: "Lacuna Board Game",
+    desc: "Polish desktop and online multiplayer board game featuring a custom Swing animation engine, WebSocket networking, and Minimax AI with Alpha-Beta pruning.",
+    tech: "Java · Swing · WebSockets · AI (Minimax)",
+    link: "https://github.com/lakhdar-mouhieddine/Lacuna"
   },
   {
     icon: <Bot size={22} />,
