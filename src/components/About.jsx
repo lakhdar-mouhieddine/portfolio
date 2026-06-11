@@ -31,7 +31,7 @@ export default function About() {
         
         <div className="md:col-span-4 grid grid-cols-2 gap-4">
           {[
-            { label: "Projects", val: "7" },
+            { label: "Projects", val: "8" },
             { label: "Internships", val: "3" },
             { label: "Universities", val: "2" },
             { label: "Languages", val: "4" }

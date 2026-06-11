@@ -14,7 +14,7 @@ export default function Metrics() {
       <SectionHeader title="By the numbers" icon={<BarChart size={28} />} />
       <div className="flex flex-wrap gap-4">
         {[
-          { v: "7", l: "Projects on GitHub" },
+          { v: "8", l: "Projects on GitHub" },
           { v: "3", l: "Professional experiences" },
           { v: "2", l: "Universities (ESI + UGA)" },
           { v: "4", l: "Languages spoken (Arabic, French, English, Italian)" }
